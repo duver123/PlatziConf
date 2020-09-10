@@ -37,6 +37,8 @@
 }
     .btn-platzi:hover{
         background-color: #72982f;
+        font-weight: bold;
+        
     }
 .place-time{
     color: #fff;
