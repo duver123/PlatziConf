@@ -1,0 +1,364 @@
+<!Doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/images/platzi-logo2.png">
+    <title>Platzy Hawai</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="56">
+    <!-------------------  Header  ---------------->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/images/platzi-logo.png" class="logo" alt="Platzi logo">Conf Hawai
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse menu-fixed" id="navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#main">Conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#speakers">Conferencistas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#place">Lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#conferencista">Convierte en colaborador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-platzi" href="#modalCompra" data-toggle="modal"
+                                data-target="#modalCompra">Comprar tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--- Fin de Header--->
+    <!---- Carousel de Imágenes ---->
+    <section class="main" id="main">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/images/hawaii.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/images/hawaii2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/images/hawaii3.jpeg" alt="Third slide">
+                </div>
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 offset-md-6 text-center text-md-right">
+                                <h1>Platzy Conf Hawaii</h1>
+                                <p class="d-none d-md-block">Platzy Conf llegando por primera vez Hawaii! Un evento
+                                    para compartir con nuestra comunidad el conocimiento
+                                    y experiencia de los expertos que están creando el futuro
+                                    del Internet.
+                                    Ven a conocer miembros del Team Platzy a otros estudiantes
+                                    de Platzy y a los conferenciastas de primer nivel que tenemos para ti.<br>
+                                    Te esperamos</p>
+                                <a href="#" class="btn btn-outline-light">Quiero participar</a>
+                                <button type="button" class="btn btn-platzi" data-toggle="modal"
+                                    data-target="#modalCompra">Comprar tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!------ Fin del Carousel ------->
+
+    <!--  Equipo de Platzi   -->
+    <section class="speakers mt-4 mb-4" id="speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-uppercase">
+                    <small>Conoce a los</small>
+                    <h2>Conferencistas</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md col-lg mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/team/cvander.jpeg" alt="Foto de Sasha">
+                        <div class="card-body text-center">
+                            <div class="badges">
+                                <span class="badge badge-warning">PHP</span>
+                                <span class="badge badge-info">React</span>
+                            </div>
+                            <h5 class="card-title">Cristhian Van Der H.</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/team/freddy.jpeg" alt="Foto de Sasha">
+                        <div class="card-body text-center">
+                            <div class="badges">
+                                <span class="badge badge-primary">Scrum</span>
+                                <span class="badge badge-success">Git</span>
+                            </div>
+                            <h5 class="card-title">Freddie Vega</h5>
+                            <p class="card-text">Freddie es un desarrollador del FullStack quien es el CEO DE Platzi</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/team/sacha.jpg" alt="Foto de Sasha">
+                        <div class="card-body text-center">
+                            <span class="badge badge-warning">JavaScript</span>
+                            <h5 class="card-title">Sacha Lysik</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/team/leonidas2.jpeg" alt="Foto de Sasha">
+                        <div class="card-body text-center">
+                            <span class="badge badge-info">React Native</span>
+                            <h5 class="card-title">Saha</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/team/sacha.jpg" alt="Foto de Sasha">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Saha</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/team/sacha.jpg" alt="Foto de Sasha">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Saha</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+    <!--  Fin de Platzi   -->
+    <!-- Lugar Y fecha -->
+    <section class="place-time bg-dark" id="place">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-6 p-0">
+                    <img src="img/images/honolulu.jpg" alt="Playa hawaii">
+                </div>
+                <div class="col-12 col-lg-6 pt-4 align-self-center">
+                    <h2 class="mt-2 text-center">Honolulu - Octubre 2020</h2>
+                    <p class="text-justify">Hawái, un estado de los EE.UU., es un archipiélago volcánico aislado en el
+                        Pacífico central. Sus
+                        islas son famosas por sus paisajes escabrosos de riscos, cascadas, follaje tropical y playas con
+                        arenas doradas, rojas, negras e incluso verdes. De las 6 islas principales, Oahu tiene la
+                        capital y la ciudad más grande de Hawái, Honolulu, donde se encuentra la playa de media luna
+                        Waikiki y los memoriales de la Segunda Guerra Mundial en Pearl Harbor.</p>
+                    <a class="btn btn-outline-light mb-4" title="Más información"
+                        href="https://es.wikipedia.org/wiki/Haw%C3%A1i" target="_blank">Conoce más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Final de Fecha y hora -->
+    <!-- Informacion del Lugar -->
+    <!-- <section class="galery">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-uppercase mt-4">
+                    <small>Fantásticos lugares a</small>
+                    <h2>Visitar</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 mt-4 mb-4 text-justify">
+                    <div class="card">
+                        <img class="card-img-top" src="img/team/sacha.jpg" alt="Foto de Sasha">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Saha</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's contentn Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
+                                odio quis nostrum ut minima, veniam velit tempore, placeat illo eum corrupti delectus
+                                dolor! Non harum corrupti sed, repellat atque nulla?.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-4 mb-4 text-justify">
+                    <div class="card">
+                        <img class="card-img-top" src="img/team/sacha.jpg" alt="Foto de Sasha">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Saha</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Fin informacion del Lugar -->
+    <!-- Conviertete en Conferencista -->
+    <section class="conviertete-en-orador pt-2 pb-2" id="conferencista">
+        <div class="container">
+            <div class="row">
+                <div class="col text-uppercase text-center">
+                    <small>Convierte en un</small>
+                    <h2>Conferencista</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    Apuntate para ser un Conferencista más y realiza una <abbr data-toggle="tooltip"
+                        title="Charlas con duración de 5 minutos.">charla ignite</abbr>.
+                    Cuentanos de que quieres hablar!
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2 pb-3">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="was-validated form-control" placeholder="Nombre"
+                                    autocomplete="off">
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <textarea name="text" class="form-control form-control-lg" rows="3"
+                                    placeholder="Sobre que quieres hablar?"></textarea>
+                                <small class="form-text text-muted">
+                                    Recuerda incluir un titulo para tu charla
+                                </small>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <button type="button" class="btn btn-platzi btn-block">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cierre Conferencia -->
+    <!----------------  Footer de nuestro sitio web ------------------>
+    <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-lg">
+                    <a href="#">Preguntas Frecuentes</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Contáctanos</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Prensa</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Términos y condiciones</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Privacidad</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Estudiantes</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--------------- Fin del Footer -------------->
+    <!-- Modal -->
+    <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Comprar tickets</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Nombre" aria-label="">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-warning" role="alert">
+                        Recibiras un correo de confirmación si sales sorteado.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-platzi">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cierre de Modal -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
